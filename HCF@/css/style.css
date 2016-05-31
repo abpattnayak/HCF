@@ -1,0 +1,221 @@
+
+        body{
+            background-color: #f0f0f2;
+            margin: 0;
+            padding: 0;
+        }
+        .row{
+            margin: 0;
+            padding: 0;   
+        }
+        hr{
+            display: block;
+            border: 1px solid black;
+            width: 80%;
+            margin-top: 80px;
+        }
+    
+        .navbar{
+            padding: 0;
+            margin: 0;
+            background-color: rgba(111, 209, 218, 0.4) !important;
+            transition: background-color 0.5s ease-in-out;
+            height: 150px;
+            border: 0 solid !important;
+        }
+        .tabs{
+            margin-top: 100px;
+        }
+        #offerings h3{
+            font-family: Ubuntu, sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+        .more{
+            float: right;
+            font-family: sans-serif;
+            color: black;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+        
+        .fullheight{
+            height: 100%;
+        }
+        .navbar-header{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+        .navbar-header img{
+            padding: 0;
+            margin: 0;
+            height: 130px;
+        }
+        .slider{ 
+            width: 100% !important;
+            padding: 0 !important;
+        }
+        #menu{
+            margin-top: 47px;
+            margin-right: 50px;
+            border-bottom: 2px solid black;
+            font-family: Questrial, serif;
+            font-size: 1.5em;
+            letter-spacing: .25px;
+            padding-left: 10px;
+        }
+        .navbar-nav > li > a{
+            color: white !important;
+            letter-spacing: 1px;
+        }
+        .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+            animation: change 0.25s forwards ease-out;
+        }
+        @keyframes change{
+            from{   }
+            to
+                {color: #1f9ca8;}
+        }
+        .navbar-default .navbar-nav > .active{
+            color: #000 ;
+            background-color: #d65c14;
+        }
+
+        
+
+        .title{
+            margin-top: 170px;
+            margin-bottom: 70px;
+        }
+        .first{
+            margin-bottom: 30px;
+        }
+        .space{
+            margin-top: 80px;
+        }
+        .title p{
+            font-family: Questrial, sans-serif;
+            font-size: 5em;
+            font-weight: 2000;
+        }
+        #myCarousel img{
+            width: 100%;
+        }
+        .text{
+            font-family: Imprima, sans-serif;
+            font-size: 1.3em;
+            text-align: justify;
+        }
+        .navredesign{
+            background-color: #6fd1da !important;
+            box-shadow: 5px 5px 2px #888888;
+            
+        }
+        .center{
+            text-align: center;
+        }
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+        .shelf{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .client h1{
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            font-weight: 800;
+            font-size: 4em;
+            margin-top: 200px;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+        }
+        .center-margin{
+            margin:0 auto;
+        }
+        #offerings .glyphicon {
+            background-color: #E77D70;
+            color: white;
+            padding: 30px;
+            font-size: 3em;
+            border-radius: 50%;
+            transition: box-shadow 0.25s;
+        }
+        .glow{
+            padding: 20px 10px 10px 10px;
+            transition: box-shadow 0.25s;
+        }
+        .glow:hover .glyphicon {
+            box-shadow: 5px 0px 40px rgba(0,0,0, .8);
+        }
+        .glow:hover {
+            box-shadow: 5px 0px 40px rgba(0,0,0, .8);
+        }
+        
+        .gallery-title{
+            margin-bottom: 10px;
+        }
+        .underline{
+            position: relative;
+            outline: none;
+        }
+        .underline:before{
+            content:"";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            background: #231a1a;
+            visibility: hidden;
+            border-radius: 5px;
+            transform: scaleX(0);
+            transition: .5s linear;
+        }
+        .box:hover .underline:before,
+        .box:focus .underline:before {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+
+        @font-face {
+            font-family: Imprima;
+            font-weight: normal;
+            src: url('fonts/Imprima-Regular.ttf');
+        }
+        @font-face {
+            font-family: Maiandra;
+            font-weight: bold;
+            src: url('fonts/Maiandra GD Regular.ttf');
+        }
+        @media (max-width: 768px) {
+            #home{
+                display: none;
+            }
+            .nav{
+                margin: 0;
+            }
+            .navbar{
+                width: 100%;
+            }
+            #menu li{
+                text-align: center;
+                background-color: azure;
+                width: 100%;
+            }
+            #menu{
+                width: 100%;
+                margin-top: 0;
+                padding: 0 !important;
+                margin: 0 !important;
+                
+            }
+            .title p{
+                font-size: 4em;
+            }
+            .rem{
+                margin-bottom: 0;
+            }
+        }
